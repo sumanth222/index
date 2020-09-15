@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "index",
+    "slug": "index",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/favicon.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "build": {
+        "babel": {
+          "include": ["galio-framework"]
+        }
+      },
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
